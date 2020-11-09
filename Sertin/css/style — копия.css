@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+a {
+    text-decoration: none;
+    color: #3D3D3D;
+    font-family: "Lato", sans-serif;
+}
+
+.header { 
+    padding: 48px;
+}
+
+.header-menu li {
+    display: inline-block;
+    margin: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.header-menu {
+    text-align: right;
+    display: inline-block;
+    width: calc(100% - 151px);
+    vertical-align: middle;
+}
+.logo-header {
+
+    /* width: auto;
+    height: auto;
+    outline: 1px solid; */
+
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.linemain {
+    width: 1600px;
+    height: 6px;
+    background-color: #F48E0B;
+    border: none;
+}
+
+.background {
+    height: calc(100vh - 142px);
+    background: url("../image/Banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.textin {
+    height: 70%;
+    padding-left: 40%;
+}
+
+.title {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align:center;
+    font-size: 22px;
+    padding-bottom: 40px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.section {
+padding-top: 80px ;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+.line{
+    width: 100px;
+    height: 6px;
+    background-color: #F48E0B;
+    border: none;
+}
+.pic-mid {
+    text-align: center;
+    padding-top: 40px;
+    
+}
+.line-pic { 
+    display: flex;
+    justify-content: center;   
+}
+
+.section-servis {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 30px;
+}
+
+.services-block-1 {
+    width: 560px;
+    padding-left: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.services-block-1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.services-block-2 {
+    width: 560px;
+}
+
+.services-block-1 {
+    font-size: 18px;

@@ -1,0 +1,362 @@
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: #313131;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 20px;
+}
+
+.header-logo {
+    padding-left: 1%;
+}
+
+.header-menu-architect {
+    /* padding-right: 45%; */
+}
+
+.header-menu-architect {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+}
+
+.header-menu-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+.header a:hover {
+    color: rgb(0, 217, 255);
+    text-decoration: none;
+}
+
+.header-search {
+    padding-right: 1%;
+}
+
+/* .header-search:hover {
+    background-color: darkcyan;
+    width: 70px;
+    height: 70px;
+    list-style: none;
+    align-items: center;
+} */
+
+.header-image {
+    width: 100%;
+    height: 369px;
+    background-position-y: 70px;
+    background-image: url('../img/header-background.png');
+    background-attachment: fixed;
+    /* margin-top: 10px; */
+}
+
+.header-title {
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+    font-size: 24px;
+}
+
+.header-title-button {
+    /* position: relative;
+    left: 37%; */
+    padding-top: 40px;
+    padding-left: 37%;
+}
+
+.button-1 {
+    width: 202px;
+    height: 52px;
+    background-color: rgb(102, 204, 55);
+    border: none;
+    outline: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.button-1:hover {
+    background-color:red;
+}
+
+.button-2 {
+    margin-left: 20px;
+    width: 202px;
+    height: 52px;
+    background-color: rgb(61, 160, 226);
+    border: none;
+    outline: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.button-2:hover {
+    background-color: red;
+}
+
+.most-popular-posts {
+    height: 1600px;
+}
+
+.header-popular-posts {
+    text-align: center;
+    padding-top: 50px;
+    color: cornflowerblue;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.ulposts {
+    /* width: 1200px; */
+    /* margin-top: 40px; */
+    /* border: 1px solid black; */
+    position: absolute;
+    left: 14%;
+}
+
+
+.popular-posts {
+    width: 1200px;
+    justify-content: space-between; 
+    display: flex;
+    /* padding-top: 40px; */
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.button {
+    width: 370px;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(159, 165, 156);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+}
+
+.popular-posts img {
+    padding-top: 40px;
+}
+
+.popular-posts a {
+    text-decoration: none;
+}
+.button:hover {
+    background-color: rgb(115, 206, 70);
+}
+
+
+
+
+
+
+.our-most-popular-clients {
+    height: 588px;
+    background-image: url('../img/Layer\ 4\ 1.png');
+    background-attachment: fixed;
+    /* margin-top: 10px; */
+}
+
+.popular-clients-logo-1 {
+    text-align: center;
+    padding-top: 120px;
+    color: white;
+    font-size: 48px;
+}
+
+.popular-clients-logo-2 {
+    padding-top: 10%; 
+    margin-left: 22%;
+}
+
+.popular-clients-logo-2 img {
+    padding-left: 40px;
+}
+
+
+
+
+.top-rated {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: cornflowerblue;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.top-rated-images {
+    display: grid;
+    grid-template-columns: repeat(7, 235px);
+}
+
+.hot-news {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: cornflowerblue;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.hot-news-images {
+    height: auto;
+    /* border: 1px solid black; */
+}
+
+.hot {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 40px;
+}
+
+.hot-news-block {
+    width: 70%;
+    height: 70%;
+    position: relative;
+    left: 15%;
+    padding-bottom: 150px;
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-gap: 4vw;
+    /* align-items: center; */
+    grid-template-areas: 
+    "block-1 block-1 block-1 block-2"
+    "block-3 block-3 block-4 block-4"
+    "block-5 block-5 block-6 block-6"
+    "block-7 block-8 block-8 block-8"
+    ;
+}
+
+.hot-news-block > div {
+    background: rgb(179, 179, 179);
+}
+
+.block-1 {
+    grid-area: block-1;
+    display: flex;
+}
+
+.block-1-text {
+    text-align: right;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.block-2 {
+    grid-area: block-2;
+}
+
+.block-2-text {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.block-3 {
+    grid-area: block-3;
+}
+
+.block-3-text {
+    text-align: right;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.block-4 {
+    grid-area: block-4;
+}
+
+.block-4-text {
+    text-align: right;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.block-5 {
+    grid-area: block-5;
+}
+
+.block-5-text {
+    text-align: right;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.block-6 {
+    grid-area: block-6;
+}
+
+.block-6-text {
+    text-align: right;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.block-7 {
+    grid-area: block-7;
+}
+
+.block-7-text {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.block-8 {
+    grid-area: block-8;
+    display: flex;
+}
+
+.block-8-text {
+    text-align: right;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.footer {
+    width: 100%;
+    height: 70px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+}
+
+.footer-text {
+    color: #fff;
+    padding-left:15%;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-left: 22%;
+}

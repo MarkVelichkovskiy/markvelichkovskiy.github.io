@@ -1,0 +1,26 @@
+.body {
+    background-image: url('../img/background\ 1.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 50px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header {
+    width: 1000px;
+    height: 70px;
+    background-color: #313131;
+    border: 1px solid white;
+    position: relative;
+    left: 20%;
+    margin-top: 100px;
+    vertical-align: center;
+    /* justify-content: ; */
+}
+
+.header-logo:hover {
+    background-image: url('../img/logo\ 2.png');
+    color: tomato;
+    -left: 20px;
+}

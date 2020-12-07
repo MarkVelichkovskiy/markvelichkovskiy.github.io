@@ -8,19 +8,124 @@
 }
 
 .header {
+    margin: 0 auto;
     width: 1000px;
     height: 70px;
-    background-color: #313131;
-    border: 1px solid white;
-    position: relative;
-    left: 20%;
     margin-top: 100px;
-    vertical-align: center;
-    /* justify-content: ; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    color: white;
+    /* border: 1px solid white; */
+}
+.header ul, a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    text-align: right;
+}
+
+
+.header-logo {
+    background-image: url(../img/logo\ 3.png);
+    background-repeat: no-repeat;
+    list-style: none;
+    /* display: flex;
+    justify-content: center;
+    position: relative; */
+    align-items: center;
+
+}
+
+.header-logo span-m, span-h {
+    position: relative;
+    left: 70px;
+}
+
+.header-logo span-m {
+    font-size: 28px;
+}
+.header-logo span-h {
+    font-size: 18px;
+    left: 70px;
 }
 
 .header-logo:hover {
     background-image: url('../img/logo\ 2.png');
-    color: tomato;
-    -left: 20px;
+    background-repeat: no-repeat;
+    color: orange;
+}
+
+.mail:hover {
+    color:orange;
+}
+
+.tel:hover {
+    color:orange;
+}
+
+
+
+
+.grid-block {
+    padding-top: 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2vw;
+    width: 60%;
+    height: 60%;
+    grid-template-areas:
+    "block-1 block-2 block-3"
+    "block-4 block-5 block-6";
+}
+
+.grid-block > div {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.grid-block a {
+    text-decoration: none;
+}
+.grid-block a:hover {
+    text-decoration: none;
+    color: orange;
+
+    width: 300px;
+    height: 70px;
+
+}
+
+.block-1 {
+    grid-area: block-1;
+}
+
+.block-1:hover {
+    grid-area: block-1;
+}
+.block-2 {
+    grid-area: block-2;
+}
+.block-3 {
+    grid-area: block-3;
+}
+.block-4 {
+    grid-area: block-4;
+}
+.block-5 {
+    grid-area: block-5;
+}
+.block-6 {
+    grid-area: block-6;
+}
+
+
+.footer {
+    text-align: center;
+    color: white;
+    padding-top: 50px;
 }

@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.amazing-work{
+    border-bottom: 1px solid #ececec;
+    background-color: #f8fcfe;
+    height:100%;
+}
+
+.amazing-work-container{
+    height: 100%;
+    width: 1200px;
+    padding: 97px 20px 85px 20px;
+    margin: 0 auto;
+    background-color: #f8fcfe;
+}
+
+.amazing-work-header .section-header {
+    margin-bottom: 101px;
+}
+
+.amazing-work-navigation {
+    display: flex;
+    width: 609px;
+    margin: 0 auto;
+}
+
+.amazing-work-nav-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 24px 20px 20px 20px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #717171;
+    border: 1px solid #ececec;
+    border-left: none;
+}
+
+.amazing-work-nav-item:hover {
+    border: 1px solid #18cfab;
+}
+
+.amazing-work-nav-item:first-child {
+    border-left: 1px solid #ececec;
+}
+
+.amazing-work-nav-item:first-child:hover {
+    border-left: 1px solid #18cfab;
+}
+
+.amazing-work-nav-item:hover{
+    cursor: pointer;
+    animation-name: button-hover;
+    animation-duration: 0.45s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes button-hover {
+    0%   {color: #717171;}
+    100% {color: #18cfab;}
+}
+
+.amazing-work-grid {
+    display: grid;
+    width: 1139px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-row-gap: 1px;
+    justify-items: center;
+    align-items: center;
+    margin: 71px auto 0;
+}
+
+.grid-item {
+    display: none;
+}
+
+
+
+/* .amazing-work-card {
+    position: relative;
+    box-sizing: border-box;
+    height: 205px;
+}
+
+.amazing-work-card-img {
+    width: 290px;
+    height: 205px;
+    object-fit: cover;
+}
+
+.img-card-icon-wrap{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.amazing-work-card:hover .img-card-icon-wrap{
+    padding-top: 46px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    border: 1px solid #18cfab;
+    background-color: #FFFFFF;
+    text-align: center;
+    transition: opacity 0.8s;
+}
+
+.img-card-icon{
+    display: inline-block;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #18cfab;
+    border-radius: 50%;
+    color: #18cfab;
+    background-color: #ffffff;
+}
+
+.img-card-icon:hover{
+    color: #ffffff;
+    background-color: #18cfab;
+}
+
+.img-card-title{
+    padding-top: 34px;
+    color: #18cfab;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.img-card-category{
+    padding-top:20px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.amazing-work-card.hidden {
+    display: none;
+} */
+
+
+
+
+.load-more-button {
+    display: flex;
+    margin: 72px auto 0px auto;
+    width: 160px;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #18cfab;
+    border-radius: 4px;
+    color:  #ffffff;
+}
+
+.load-more-button:hover {
+    background-color: #00cbf6;
+    animation-name: load-more-button-hover;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes load-more-button-hover {
+    0%   {  color: #ffffff;}
+    100% {  color: #1c2a33;}
+}
+
+.button-loader {
+    display: none;
+    width: 30px;
+    height: 30px;
+    animation: spin 0.4s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform:rotate(360deg);
+        }
+}
+
+.load-more-button p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    flex-basis: 68%;
+}
+
+.load-more-button:hover {
+    cursor: pointer;
+    animation-name: work-button-hover;
+    animation-duration: 0.45s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes work-button-hover {
+    0%   {  color: #ffffff;}
+    100% {  color: #1c2a33;}
+}
+

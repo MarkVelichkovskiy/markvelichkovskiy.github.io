@@ -1,0 +1,57 @@
+.purchase-block {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/main_background/purchase.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 125px 0;
+    text-align: center;
+}
+
+.purchase-block-header {
+    margin-bottom: 35px;
+    color: #18cfab;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.purchase-block-sub-header {
+    color: #d8d8d8;
+    margin-bottom: 80px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.purchase-block-button {
+    display: inline-flex;
+    margin: 40px 28px 0 0;
+    width: 140px;
+    height: 17px;
+    background-color:  #18cfab;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 -5px white;
+    text-decoration: none;
+}
+
+.purchase-block-button:hover {
+    background-color: #00cbf6;
+    animation-name: purchase-block-button-hover;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes purchase-block-button-hover {
+    0%   {  color: #ffffff;}
+    100% {  color: #1c2a33;}
+}

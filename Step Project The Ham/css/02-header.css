@@ -1,0 +1,217 @@
+.header {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background: url(../img/main_background/header.jpg) fixed;
+    background-size: cover;
+}
+
+.navigation {
+    display: block;
+    width: 100%;
+    height: 120px;
+    background-color:  rgba(73, 71, 63, 0.6);
+}
+
+.navigation-container {
+    display: flex;
+    width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    width: 197px;
+    height: 67px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.logo-image {
+    width: 60px;
+    padding-top: 17px;
+    background: url(../img/logo-image.png);
+    font-weight: 700;
+    color: #fff;
+    font-size: 41px;
+    line-height: 31px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    /* text-transform: uppercase; */
+}
+
+.logo-text {
+    display: flex;
+    width: 131px;
+    height: 100%;
+    margin-left: 8px;
+    align-items: center;
+}
+
+.logo-text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0 0;
+}
+
+.logo-text .logo-highlight {
+    color:  #18cfab;
+    font-weight: 700;
+}
+
+.nav-items {
+    display: flex;
+    width: 703px;
+    height: 120px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    justify-content: space-between;
+    align-content: stretch;
+    color: #b8b8b8;
+    text-transform: uppercase;
+}
+
+.nav-buttons {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-buttons:hover {
+    cursor: pointer;
+    animation-name: nav-hover;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes nav-hover {
+    0%   {color: #b8b8b8;}
+    100% {color: #18cfab;}
+}
+
+.nav-buttons:hover:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    bottom: 1px;
+    background-color: #18cfab;
+    animation-name: nav-pseudo-hover;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes nav-pseudo-hover {
+    0%   {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.fas.fa-search {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fas.fa-search:hover {
+    color: #18cfab;
+    cursor: pointer;
+    animation-name: nav-hover;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+}
+
+.fas.fa-search:hover:after {
+    /* color: #18cfab; */
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    bottom: 1px;
+    background-color: #18cfab;
+    animation-name: nav-pseudo-hover;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+}
+
+.header-container {
+    margin: 0 auto;
+    width: 1200px;
+    height: 100%;
+    padding: 0 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.header-subtitle{
+    margin: 246px auto 45px auto;
+    font-size: 35px;
+    line-height: 24px;
+}
+
+.highlight {
+    display: inline;
+    color:  #18cfab;
+    line-height: 24px;
+}
+
+.header-title{
+    margin: 0 auto;
+    font-size: 79px;
+    line-height: 57px;
+}
+
+.header-message{
+    margin: 37px auto 0 auto;
+    text-transform: capitalize;
+    font-weight: 300;
+    color: #d4d4d4;
+    font-size: 34px;
+}
+
+.header-button {
+    display: inline-flex;
+    margin: 146px 28px 0 0;
+    width: 166px;
+    height: 61px;
+    background-color:  #18cfab;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 -5px white;
+    text-decoration: none;
+}
+
+
+
+.header-button:hover {
+    background-color: #00cbf6;
+    animation-name: header-button-hover;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes header-button-hover {
+    0%   {  color: #ffffff;}
+    100% {  color: #1c2a33;}
+}
+

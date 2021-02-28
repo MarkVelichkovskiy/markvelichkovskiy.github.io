@@ -1,0 +1,59 @@
+.what-you-get {
+  display: grid;
+  grid-template-areas: "articles title"
+  "articles img"
+  "articles img"
+  "articles img";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr ;
+  background-color: #f4f4f4;
+}
+
+.what-you-get-articles {
+  grid-area: articles;
+  margin-left: 55px;
+  margin-top: 85px;
+}
+
+.article {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin-bottom: 35px;
+}
+
+.article-title {
+  @include montserratFont;
+  font-size: 15px;
+  text-transform: capitalize;
+  color: rgba(50, 50, 50, 255);
+  margin-bottom: 10px;
+}
+
+.article-text {
+  @include montserratFont;
+  font-size: 13px;
+  color: rgba(132, 142, 151, 255);
+  line-height: 20px;
+  margin-right: 70px;
+}
+
+.what-you-get-title {
+  grid-area: title;
+  @include montserratFont;
+  font-size: 40px;
+  font-weight: bold;
+  color: #8d81ac;
+  margin-top: 85px;
+}
+
+.what-you-get-img {
+  grid-area: img;
+  width:101.8%;
+  height: 88%;
+  background-image: url("../img/whatyouget/bg.png");
+  background-size: cover;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  margin-top: 25px;
+}
+  

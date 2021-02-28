@@ -1,0 +1,186 @@
+@media screen and (min-width: 481px) and (max-width: 992px) {
+
+//----------Header----------
+  
+.header-menu {
+  grid-template-areas: "logo logo logo button button button"
+  "nav-bar nav-bar nav-bar nav-bar nav-bar nav-bar";
+  grid-template-columns:15% 15% 15% 15% 15% 15%;
+  grid-template-rows: 60% 40%;
+  width: 103.8%;
+  margin-left: -9px;
+  padding: 10px 0;
+}
+  
+.header-menu-logo {
+  grid-area: logo;
+}
+  
+.nav-bar-button {
+  grid-area: button;
+}
+  
+.header-menu-nav-bar {
+  grid-area: nav-bar;
+  justify-self: center;
+}
+  
+.nav-bar-item {
+  margin: 0 5px;
+}
+  
+.download-button--active {
+  color: $headerColor;
+  background-color: white;
+  border: 1px solid $headerColor;
+}
+  
+.logo-img--active {
+  content: url("../img/header/navbar-logo-hover.png");
+}
+  
+.logo-text--active {
+  color: white;
+}
+  
+.nav-bar-button--active {
+  color: $headerColor;
+  background-color: white;
+}
+  
+.nav-bar-item--active {
+  color: white;
+}
+  
+//----------Revolutionary----------
+  
+.revolutionary-editor-title {
+  font-size: 32px;
+  margin: 105px 0 32px;
+}
+  
+.revolutionary-editor-slogan {
+  font-size: 23px;
+  line-height: 35px;
+}
+  
+//----------What You Get----------
+  
+.what-you-get {
+  grid-template-areas: "title" "articles" "img";
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 4fr 4fr;
+}
+  
+.articles {
+  margin-left: 30px;
+  margin-top: 25px;
+}
+  
+.article {
+  grid-template-columns: minmax(140px, 1fr) 4fr;
+}
+  
+.article img {
+  margin-left: 20px;
+}
+  
+.what-you-get-title {
+  font-size: 38px;
+  margin-top: 60px;
+  text-align: center;
+}
+  
+.what-you-get-img {
+  width:97.8%;
+  height: 90%;
+  margin-left: 30px;
+  margin-top: 0px;
+}
+  
+.article-text {
+  margin-right: 20px;
+}
+  
+//----------People Talking----------
+  
+.about-fork-comment-container {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 3%;
+  grid-row-gap: 30px;
+  justify-content: center;
+}
+  
+.about-fork-title {
+  font-size: 40px;
+  padding: 75px 0 25px;
+  line-height: 57px;
+}
+  
+.about-fork-footer {
+  font-size: 10px;
+  margin:25px 10px 0;
+  padding-bottom: 25px;
+}
+  
+.footer-text {
+  line-height: 16px;
+}
+  
+.about-fork-footer::after {
+  padding: 0 200px;
+  right: calc((100% - 400px)/2);
+}
+  
+//----------Pricing----------
+  
+.pricing-title {
+  font-size: 43px;
+  margin-bottom: 50px;
+  line-height: 60px;
+}
+.pricing-item-container {
+  grid-template-columns: 35% 35%;
+  grid-template-rows: 50% 50%;
+  grid-gap: 6%;
+  padding-bottom: 140px;
+}
+  
+.pricing-item {
+  margin-bottom: 20px;
+}
+  
+#bigItem.pricing-item {
+  width: 100%;
+  margin: 0 calc(1% - 1px);
+}
+  
+.pricing-item-title {
+  font-size: 19px;
+}
+  
+.pricing-item-price {
+  font-size: 58px;
+}
+  
+.pricing-item-period {
+  font-size: 14px;
+}
+  
+.pricing-item-conditions {
+  font-size: 15px;
+}
+  
+.pricing-item-button {
+  font-size: 14px;
+}
+  
+.pricing-item-button--active {
+  color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.65);
+  font-weight: bold;
+}
+
+}

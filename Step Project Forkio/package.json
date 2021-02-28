@@ -1,0 +1,30 @@
+{
+  "name": "step-project-forkio",
+  "version": "1.0.0",
+  "description": "Step Project Forkio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/MarkVelichkovskiy/step-project-forkio.git"
+  },
+  "author": "Mark Velichkovskiy & Maksym Sachenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/MarkVelichkovskiy/step-project-forkio"
+  },
+  "homepage": "https://gitlab.com/MarkVelichkovskiy/step-project-forkio",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.1.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglifyjs": "^0.6.2"
+  }
+}

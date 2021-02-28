@@ -1,0 +1,68 @@
+.about-fork {
+  background-image: url("../img/peopletalking/bg.png");
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+}
+  
+.about-fork-title {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: bold;
+  font-size: 45px;
+  padding: 100px 0 90px;
+}
+  
+.about-fork-comment-container {
+  display: grid;
+  grid-template-columns: 26% 26% 26%;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 6%;
+  grid-row-gap: 100px;
+  justify-content: center;
+}
+  
+.comment {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+  
+.comment-logo {
+  display: block;
+  margin: 0 auto;
+  align-self: center;
+}
+  
+.comment-text {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  font-style: italic;
+  text-align: center;
+  line-height: 25px;
+}
+  
+.about-fork-footer {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  margin: 100px 205px 0;
+  padding-bottom: 25px;
+}
+  
+.footer-text {
+  line-height: 20px;
+}
+  
+.about-fork-footer::after {
+  content: "";
+  padding: 0 370px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  position: absolute;
+  right: calc((100% - 740px)/2);
+  bottom: 15px;
+}

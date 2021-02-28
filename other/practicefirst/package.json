@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "masonry": "^0.0.2",
+    "node": "^15.8.0",
+    "slick-carousel": "^1.6.0"
+  }
+}

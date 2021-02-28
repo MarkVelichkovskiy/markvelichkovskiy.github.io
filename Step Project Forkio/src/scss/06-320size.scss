@@ -1,0 +1,187 @@
+@media screen and (max-width: 480px) {
+
+//----------Header----------
+
+.header-menu {
+  grid-template-areas: "logo button nav-bar";
+  grid-template-columns:15% 60% 15%;
+  width: 105.8%;
+  margin-left: -9px;
+  padding: 10px 0;
+}
+  
+.header-menu-logo {
+  grid-area: logo;
+  justify-self: center;
+}
+  
+.nav-bar-button {
+  grid-area: button;
+  justify-self: center;
+}
+  
+.logo-text {
+  display: none;
+}
+  
+.header-menu-nav-bar {
+  display: none;
+}
+  
+.info-title {
+  font-size: 55px;
+}
+  
+.info-description {
+  line-height: 40px;
+}
+  
+.header-download-button {
+  bottom: -56px;
+  left: calc(50% - 155px);
+}
+  
+.download-button {
+  color: white;
+  font-size: 18px;
+  padding: 15px 40px;
+  border-radius: 33px;
+}
+  
+.download-button--active {
+  color: $headerColor;
+  background-color: white;
+  border: 1px solid $headerColor;
+}
+  
+.header-menu-drop-down-button {
+  display: block;
+  justify-self: center;
+}
+  
+.logo-img--active {
+  content: url("../img/header/navbar-logo-hover.png");
+}
+  
+.nav-bar-button--active {
+  color: $headerColor;
+  background-color: white;
+}
+  
+//----------Revolutionary----------
+  
+.revolutionary-editor-title {
+  font-size: 24px;
+  margin: 75px 0 10px;
+  line-height: 40px;
+}
+  
+.revolutionary-editor-slogan {
+  font-size: 16px;
+  line-height: 25px;
+}
+  
+.revolutionary-editor-actions {
+  max-width: 300px;
+}
+  
+//----------What You Get----------
+  
+.what-you-get {
+  grid-template-areas: "title" "articles" "img";
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 8fr 3fr;
+}
+  
+.what-you-get-articles {
+  margin-left: 0px;
+  margin-top: 30px;
+}
+  
+.article {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+  
+.article-title {
+  margin: 20px 0 10px;
+}
+  
+.article-text {
+  margin: 0;
+}
+  
+.what-you-get-title {
+  font-size: 35px;
+  margin-top: 45px;
+  text-align: center;
+}
+  
+.what-you-get-img {
+  width:100%;
+  height: 90%;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+  
+//----------People Talking----------
+  
+.about-fork-comment-container {
+  display: grid;
+  grid-template-columns: 95%;
+  grid-column-gap: 0;
+  grid-row-gap: 30px;
+  justify-content: center;
+}
+  
+.about-fork-title {
+  font-size: 40px;
+  padding: 75px 0 25px;
+  line-height: 57px;
+}
+  
+.about-fork-footer {
+  font-size: 10px;
+  margin:25px 10px 0;
+  padding-bottom: 25px;
+}
+  
+.footer-text {
+  display: none;
+}
+  
+.about-fork-footer::after {
+  padding: 0 150px;
+  right: calc((100% - 300px)/2);
+}
+  
+//----------Pricing----------
+  
+.pricing-title {
+  font-size: 30px;
+  margin-bottom: 50px;
+  line-height: 55px;
+}
+
+.pricing-item-container {
+  grid-template-columns: 75%;
+  padding-bottom: 110px;
+}
+  
+.pricing-item {
+  margin-bottom: 0px;
+}
+  
+#bigItem.pricing-item {
+  margin: 43px calc(1% - 1px);
+}
+  
+.pricing-item-button--active {
+  color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.65);
+  font-weight: bold;
+}
+  
+}
+  

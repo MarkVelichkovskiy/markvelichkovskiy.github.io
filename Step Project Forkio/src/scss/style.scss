@@ -1,0 +1,26 @@
+@mixin latoFont {font-family: "Lato", sans-serif;}
+
+@mixin montserratFont {font-family: "Montserrat", sans-serif;}
+
+@mixin actionsBefore {
+  font-family: "FontAwesome";
+  font-weight: 400;
+  font-size: 14px;
+  margin-right: 3px;
+}
+
+.content-container {
+  min-width: 320px;
+  max-width: 1200px;
+  padding: 0 10px;
+}
+
+@import '01-header.scss';
+@import '02-revolutionary.scss';
+@import '03-whatyouget.scss';
+@import '04-peopletalking.scss';
+@import '05-pricing.scss';
+@import '06-320size.scss';
+@import '07-480size.scss';
+@import '08-1200size.scss';
+@import 'reset.scss';

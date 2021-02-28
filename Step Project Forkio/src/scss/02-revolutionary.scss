@@ -1,0 +1,63 @@
+.revolutionary-editor-title {
+  @include montserratFont;
+  font-size: 40px;
+  font-weight: bold;
+  color: #635c73;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 130px 0 40px;
+}
+
+.revolutionary-editor-slogan {
+  @include latoFont;
+  font-size: 26px;
+  text-align: center;
+  color: #5b5b5b;
+  line-height: 40px;
+}
+
+.revolutionary-editor-actions {
+  @include montserratFont;
+  font-weight: bold;
+  font-size: 13px;
+  margin: 40px auto 70px auto;
+  max-width: 420px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.actions-button {
+  border: 1px solid rgba(27,31,35,.2);
+  border-radius: 3px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.actions-button-icon {
+  display: inline-block;
+  border-right: 1px solid rgba(27,31,35,.2);
+  background-color: #eff3f6;
+  padding: 5px 10px;
+}
+
+.actions-button-number{
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.watch-actions::before {
+  content: "\f06e";
+  @include actionsBefore;
+}
+
+.star-actions::before {
+  content: "\f005";
+  @include actionsBefore;
+}
+
+.fork-actions::before {
+  content: "\f126";
+  @include actionsBefore;
+}

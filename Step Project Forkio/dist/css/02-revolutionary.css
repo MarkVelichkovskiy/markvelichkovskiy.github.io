@@ -1,0 +1,72 @@
+.revolutionary-editor-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #635c73;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 130px 0 40px;
+}
+  
+.revolutionary-editor-slogan {
+  font-family: "Lato", sans-serif;
+  font-size: 26px;
+  text-align: center;
+  color: #5b5b5b;
+  line-height: 40px;
+}
+  
+.revolutionary-editor-actions {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  margin: 40px auto 70px auto;
+  max-width: 420px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+  
+.actions-button {
+  border: 1px solid rgba(27, 31, 35, 0.2);
+  border-radius: 3px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+  
+.actions-button-icon {
+  display: inline-block;
+  border-right: 1px solid rgba(27, 31, 35, 0.2);
+  background-color: #eff3f6;
+  padding: 5px 10px;
+}
+  
+.actions-button-number {
+  display: inline-block;
+  padding: 5px 10px;
+}
+  
+.watch-actions::before {
+  content: "\f06e";
+  font-family: "FontAwesome";
+  font-weight: 400;
+  font-size: 14px;
+  margin-right: 3px;
+}
+  
+.star-actions::before {
+  content: "\f005";
+  font-family: "FontAwesome";
+  font-weight: 400;
+  font-size: 14px;
+  margin-right: 3px;
+}
+  
+.fork-actions::before {
+  content: "\f126";
+  font-family: "FontAwesome";
+  font-weight: 400;
+  font-size: 14px;
+  margin-right: 3px;
+}  

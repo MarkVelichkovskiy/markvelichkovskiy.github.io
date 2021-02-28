@@ -1,0 +1,36 @@
+@media screen and (min-width: 1201px) {
+
+.content-container {
+  margin: 0 auto;
+}
+   
+.header-menu-logo:hover .logo-img {
+  content: url("../img/header/navbar-logo-hover.png");
+}
+   
+.header-menu-logo:hover .logo-text {
+  color: white;
+}
+   
+.nav-bar-item:hover {
+  color: white;
+}
+   
+.nav-bar-button:hover {
+  color: $headerColor;
+  background-color: white;
+}
+   
+.download-button:hover {
+  color: $headerColor;
+  background-color: white;
+  border: 1px solid $headerColor;
+}
+   
+.pricing-item-button:hover {
+  color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.65);
+  font-weight: bold;
+}
+
+}

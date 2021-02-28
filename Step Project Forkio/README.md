@@ -1,16 +1,17 @@
-# step-project-forkio
+# Step Project Forkio
 
-## About Step-project-forkio
+## About Step Project Forkio
 
 Step project is made as part of a training course in DAN.IT education training center.
 The main task of the project is to study how to work in a team of two novice programmers аnd to get necessary skills for such task.
-Step-project-forkio is an exmaple of website with adaptive and responsive design 320px, 768px and 1200px.   
-This project manages its dependencies using npm. 
-This project is build usind package builder Gulp. 
-Preprocessor SASS (SCSS) is used.  
+Step Project Forkio is an exmaple of website with adaptive and responsive design for 320px, 768px and 1200px screen.   
+This project manages its dependencies using npm.
+This project is build using package builder Gulp. 
+Preprocessor SCSS is used.  
 
 Header and section "People Are talking About Fork" is done by Maksym. 
-Sections "Revolutionary Editor", "Here is what you get" and Fork Subscription Pricing is done by Mark.  
+
+Sections "Revolutionary Editor", "Here is what you get" and "Fork Subscription Pricing is done by Mark.  
 
 ## The latest version
 
@@ -18,9 +19,12 @@ Details of the last version can be found on the gitlab repository https://gitlab
 
 ## Liсence
 
-Step-project-forkio is open-source software licensed under the ISC License.
+Step Project Forkio is open-source software licensed under the ISC License.
 
 ## Contacts 
 
 You can find us in Slack chat: 
-Mark Velichkovskiy @ Mark Velichkovskiy
+
+Mark Velichkovskiy @MarkVelichkovskiy
+
+Maksym Sachenko @MaksymSachenko

@@ -9,12 +9,12 @@ This project manages its dependencies using npm.
 This project is build usind package builder Gulp. 
 Preprocessor SASS (SCSS) is used.  
 
-Header and section "People Are talking About Fork" is done by Dmytro. 
-Sections "Revolutionary Editor", "Here is what you get" and Fork Subscription Pricing is done by Oleksandr.  
+Header and section "People Are talking About Fork" is done by Maksym. 
+Sections "Revolutionary Editor", "Here is what you get" and Fork Subscription Pricing is done by Mark.  
 
 ## The latest version
 
-Details of the last version can be found on the gitlab repository https://gitlab.com/AShtuka/step-project-forkio.git
+Details of the last version can be found on the gitlab repository https://gitlab.com/MarkVelichkovskiy/step-project-forkio.git
 
 ## Liсence
 
@@ -23,5 +23,4 @@ Step-project-forkio is open-source software licensed under the ISC License.
 ## Contacts 
 
 You can find us in Slack chat: 
-Oleksandr Shtuka  @ Shtuka Oleksandr
-Dmytro Boriskin @ dmytro
+Mark Velichkovskiy @ Mark Velichkovskiy

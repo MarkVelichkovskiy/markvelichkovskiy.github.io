@@ -1,0 +1,52 @@
+body, html {
+	width: 100%;
+	height: 100%;
+	font-family: arial, verdana, sans-serif;
+	font-weight: 700;
+	color: rgb(230, 152, 51);
+    overflow: hidden;
+    background-image: url(../img/background3.jpg);
+
+}
+
+.audio-player {
+    position: absolute;
+    right: 0;
+}
+
+.text-container {
+    overflow: hidden;
+	position: absolute;
+	width: 100%;
+    height: 700%;
+    line-height: 120%;
+	bottom: 0;
+	font-size: 700%;
+	font-weight: bold;
+	text-align: justify;
+	transform-origin: 50% 100%;
+    transform: perspective(800px) rotateX(35deg);   
+}
+
+.text-content {
+	position: absolute;
+	animation: starwars-intro 30s linear 0s infinite;
+}
+
+.episode-name {
+    text-align: center;
+}
+
+.episode-title {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.episode-description {
+    margin-top: 100px;
+}
+
+@keyframes starwars-intro {
+	0%   { top: 100%;}
+	100% { top: 30%; }
+}

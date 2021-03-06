@@ -1,6 +1,10 @@
-@mixin latoFont {font-family: "Lato", sans-serif;}
+@mixin latoFont {
+  font-family: "Lato", sans-serif;
+}
 
-@mixin montserratFont {font-family: "Montserrat", sans-serif;}
+@mixin montserratFont {
+  font-family: "Montserrat", sans-serif;
+}
 
 @mixin actionsBefore {
   font-family: "FontAwesome";

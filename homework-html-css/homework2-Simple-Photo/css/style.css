@@ -1,0 +1,79 @@
+.container {
+   width: 1280px;
+   margin: auto;
+   text-align: center;
+}
+
+ul {
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   font-family: Montserrat;
+   font-weight: bold;
+   letter-spacing: 2.7px;
+   margin-top: 25.5px;
+   margin-bottom: 25.5px;
+}
+
+li {
+   list-style-type: none;
+   margin-right: 50px;
+   text-transform: uppercase;
+}
+
+a {
+   color: #FF0000;
+   text-decoration: none;
+}
+
+img {
+   width: 100%;
+}
+
+h2 {
+   color: #373737;
+   text-transform: uppercase;
+   font-size: 22px;
+   font-weight: bold;
+   line-height: 27px;
+   margin-top: 48px;
+   margin-bottom: 38px;
+   font-family: Montserrat;
+   letter-spacing: 3.3px;
+   font-style: normal;
+
+}
+
+p {
+   margin-bottom: 28px;
+   margin-left: 67.5px;
+   margin-right: 67.5px;
+   font-family: Montserrat;
+   letter-spacing: 2.4px;
+   color: #373737;
+}
+
+button {
+   background: #FF0000;
+   color: #fff;
+   margin-top: 66px;
+   text-transform: uppercase;
+   padding: 18px 42px;
+   border: none;
+   outline: none;
+   font-family: Montserrat;
+   font-weight: bold;
+   letter-spacing: 1.8px;
+   border-radius: 4px;
+}
+
+footer {
+   color: #373737;
+   text-align: end;
+   margin-top: 82px;
+   margin-right: 105px;
+   margin-bottom: 29px;
+   font-family: Montserrat;
+   font-weight: bold;
+   letter-spacing: 2.4px;
+}

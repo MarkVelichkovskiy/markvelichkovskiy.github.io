@@ -1,0 +1,13 @@
+$color-title: #4E4E4E;
+$color-title-light: #fff;
+$color-comments: #7C7C7C;
+$color-description: #5C5C5C;
+$color-menu:#57A4A4;
+
+@mixin post-title-param {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}

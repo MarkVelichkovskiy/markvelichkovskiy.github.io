@@ -1,0 +1,9 @@
+h1, h2{
+    color: green;
+}
+.text-red {
+    color: red;
+}
+ul li:nth-child(3) {
+    color: salmon;
+}

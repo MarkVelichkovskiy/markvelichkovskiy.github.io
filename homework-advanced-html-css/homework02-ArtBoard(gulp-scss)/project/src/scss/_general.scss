@@ -1,0 +1,45 @@
+
+
+body {
+    font-family: 'Roboto',sans-serif;
+}
+.maxWidth{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.post-title{
+    @include post-title-param ;
+     color:$color-title;
+ }
+ .posts{
+     display: grid;
+     grid-template-columns:  1fr 1fr;
+     grid-auto-rows: 1fr 1fr;
+     gap: 30px;
+    
+ }
+ .post-content{
+     display: flex;
+ }
+.post-text{
+    color:$color-title;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+
+}
+.comments{
+    font-size: 12px;
+    line-height: 20px;
+    color: $color-comments;
+}
+.description{
+    color: $color-description;
+    font-size: 14px;
+    line-height: 26px;
+}
+.img-post{
+   margin-right: 20px; 
+}
+

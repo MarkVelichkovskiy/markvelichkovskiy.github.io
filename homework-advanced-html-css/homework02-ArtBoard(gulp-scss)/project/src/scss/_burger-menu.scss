@@ -1,0 +1,27 @@
+ 
+ .burger{
+     position: relative;
+ }
+ .menu-icon{
+    display: none;
+    
+ }
+ .menu-icon img{
+    padding:  25px 0;
+    width: 45px;
+    height: 40px;
+ }
+
+ .burger-menu{
+    display: none;
+    width: 180px;
+    height: 160px;
+    background:#F5F5F5;
+    padding-left: 14px;
+    position: absolute;
+    right: 0;
+    top: 62px;
+ }
+ .close-burger-menu{
+     display: none;
+ }

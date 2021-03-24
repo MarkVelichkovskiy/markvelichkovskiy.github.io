@@ -1,0 +1,25 @@
+{
+  "name": "project-x",
+  "version": "1.0.0",
+  "description": "Mark Velichkovskiy fe-24",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/MarkVelichkovskiy/homework"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "eslint": "^7.20.0",
+    "gulp": "^4.0.2"
+  }
+}

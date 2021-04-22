@@ -48,12 +48,13 @@ export default class Modal {
     }
 
     openModal() {
-      this.modal.formElements.add("active");
+      this.modal.classList.add('active');
     }
     closeModal() {
-      this.modal.formElements.REMOVE;
-      clearModalFields(this.modal);
+      this.modal.classList.REMOVE('active');
+      removeModalFields(this.modal);
     }
+
   }
   
   
